@@ -16,7 +16,6 @@ int main(){
 	std::cout << "Total price : " << total_price << std::endl;
 	std::cout << "sizeof total_price : " << sizeof(total_price) << std::endl;
 
-
 	//Implicit conversions in assignments
 	// The assignment operation is going to cause an implicit
 	// narrowing conversion , y is converted to int before assignment
