@@ -69,6 +69,6 @@
 		"cinttypes": "cpp",
 		"typeinfo": "cpp"
 	},
-	"editor.insertSpaces": true,
+	"editor.insertSpaces": false,
 	"editor.formatOnSave": false,
 }
