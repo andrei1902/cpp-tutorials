@@ -71,4 +71,5 @@
 	},
 	"editor.insertSpaces": false,
 	"editor.formatOnSave": false,
+	"editor.renderWhitespace": "all",
 }

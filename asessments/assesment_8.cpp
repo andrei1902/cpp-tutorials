@@ -1,5 +1,4 @@
 #include <iostream>
-using std::boolalpha;
 using std::cout;
 using std::cin;
 using std::endl;
@@ -20,7 +19,7 @@ int main() {
 	cout << endl;
 
 	if (xLocation > minX && xLocation < maxX && yLocation > minY && yLocation < maxY) {
-		cout << "You are completely sorrounded. Don't move." << endl;
+		cout << "You are completely sorounded. Don't move." << endl;
 		return 0;
 	}
 	cout << "You are out of reach!" << endl;
