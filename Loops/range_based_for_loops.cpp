@@ -27,5 +27,12 @@ int main() {
 		cout << "value : " << value << endl;
 	}
 
+	int numbers [] {1,21,4,5,7,3,9,3,5,17,15};
+		for (int value : numbers) {
+			if (value % 3 == 0) {
+				cout << value << " ";
+			}
+	}
+
 	return 0;
 }
