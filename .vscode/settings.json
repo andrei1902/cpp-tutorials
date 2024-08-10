@@ -67,9 +67,12 @@
 		"streambuf": "cpp",
 		"thread": "cpp",
 		"cinttypes": "cpp",
-		"typeinfo": "cpp"
 	},
 	"editor.insertSpaces": false,
-	"editor.formatOnSave": false,
+	"editor.formatOnSave": true,
 	"editor.renderWhitespace": "all",
+	"C_Cpp.clang_tidy.enabled": true,
+	"C_Cpp.clang_tidy.args": [
+		"--config-file=${workspaceFolder}/.clang-tidy"
+	],
 }
