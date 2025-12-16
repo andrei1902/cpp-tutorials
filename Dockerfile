@@ -2,10 +2,10 @@
 FROM gcc:latest AS build
 WORKDIR /app
 COPY Arrays/ .
-RUN g++ size_of_array_demo.cpp random_array.cpp -static -o size_of_array_demo
+RUN g++ random_numbers.cpp random_array.cpp -static -o random_numbers
 
 # Runtime stage
 FROM alpine
 WORKDIR /app
-COPY --from=build /app/size_of_array_demo .
-ENTRYPOINT ["./size_of_array_demo"]
+COPY --from=build /app/random_numbers .
+ENTRYPOINT ["./random_numbers"]
